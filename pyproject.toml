@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "example_package_Ruxton"
+version = "0.0.1"
+authors = [
+  { name="Ruxton", email="rt.kellar@gmail.com" },
+]
+description = "A package I made following a tutorial"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ruxton07/example_project_Ruxton"
+Issues = "https://github.com/Ruxton07/example_project_Ruxton/issues"
